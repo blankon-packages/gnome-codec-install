@@ -1,0 +1,200 @@
+# Albanian translation for gnome-codec-install
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gnome-codec-install package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-codec-install\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-02-05 14:35+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Rresht komande i pavlefshëm"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Parametrat që iu kaluan programit kanë një format të pavlefshëm. Dërgoni një "
+"raport gabimi!\n"
+"Parametrat ishin:\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Të kërkoj për një plugin të përshtatshëm?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Programi i kërkuar për ta luajtur këtë skedar nuk është instaluar. Juve ju "
+"duhet të instaloni pluginët e duhur për të luajtur skedarët media. Dëshironi "
+"të kërkoni për një plugin që e suporton skedarin e përzgjedhur?\n"
+"\n"
+"Kërkimi do të përfshijë gjithashtu programe që nuk suportohen zyrtarisht."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Kërko"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Nuk është përzgjedhur asnjë paketë"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Homepage:"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Jep:"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Përshkrim i gjatë:"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Instalo Pluginët Multimedia"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Ju lutemi zgjidhni paketat për instalim që japin pluginët që vijojnë:"
+"</big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Paketa"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Detajet"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "Anullo"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "Instalo"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Duke Kërkuar Paketat e Pluginëve"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Kjo mund të zgjasë deri në një apo dy minuta."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Duke ngarkuar kujtesën e paketave..."
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Duke kërkuar për pluginët e duhur..."
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Nuk ka paketa të përzgjedhura"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Paketat u instaluan me sukses"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Paketat e përzgjedhura u instaluan me sukses dhe dhanë të gjithë pluginët e "
+"kërkuar"
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Paketat e përzgjedhura u instaluan me sukses por nuk dhanë të gjithë "
+"pluginët e kërkuar"
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Nuk u instaluan paketa"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Asnjë nga paketat e kërkuara nuk u instalua."
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr "Ta përditësoj listën e paketave?"
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr ""
+"Informacioni i paketave nuk është i kompletuar dhe ka nevojë për përditësim."
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr "_Përditësoje"
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Nuk u gjetën paketa me pluginët e kërkuar"
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Pluginët e kërkuar janë:\n"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Konfirmo instalimin e programeve të kufizuara"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "* These restrictions do not apply in your country of legal residence\n"
+#~ "* You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "* You are using this software for research purposes only"
+#~ msgstr ""
+#~ "Përdorimi i këtij programi mund të jetë i kufizuar në disa vende. Duhet "
+#~ "të verifikoni që një nga sa më poshtë të jetë e vërtetë:\n"
+#~ "\n"
+#~ "* Këto kufizime nuk aplikohen në vendin e banimit tuaj të ligjshëm\n"
+#~ "* Ju keni lejen për ta përdorur këtë program (përshembull, një liçensë "
+#~ "patente)\n"
+#~ "* Ju po e përdorni këtë program vetëm për qëllime kërkimi"
+
+#~ msgid "C_onfirm"
+#~ msgstr "K_onfirmo"

@@ -1,0 +1,199 @@
+# Estonian translation for gnome-codec-install
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gnome-codec-install package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-codec-install\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-02-10 10:09+0000\n"
+"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Vigane käsurida"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Rakendusele edastatud parameetrid olid sobimatus vormingus. Palun raporteeri "
+"sellest veast!\n"
+"\n"
+"Parameetrid olid:\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Kas otsida sobivat pluginat?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Selle faili esitamiseks vajalik tarkvara ei ole paigaldatud. Meediafailide "
+"esitamiseks on vajalik vastavate pluginate olemasolu. Kas tahad otsida "
+"valitud faili toetava plugina?\n"
+"\n"
+"Otsing kaasab ka tarkvara, mis ei ole ametlikult toetatud."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Otsing"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Ühtegi paketti pole valitud"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Koduleht:"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Sisaldab:"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Pikk kirjeldus:"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Multimeediapluginate paigaldus"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Palun vali paigaldamiseks paketid, mis tagaksid järgnevad pluginad:</"
+"big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Pakett"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Üksikasjad"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "Loobu"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "Paigalda"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Pluginapakettide otsimine"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Selleks võib kuluda minut või kaks."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Paketipuhvri laadimine..."
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Nõutud pluginate otsimine..."
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Ühtegi paketti ei valitud"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Pakettide paigaldamine edukas"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Valitud pakettide paigaldamine oli edukas ning need sisaldasid kõiki "
+"vajalikke pluginaid"
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Valitud pakettide paigaldamine oli edukas kuid need ei sisaldanud kõiki "
+"vajalikke pluginaid"
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Ühtegi paketti ei paigaldatud"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Mitte ühtegi valitud pakettidest ei paigaldatud."
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr "Kas uuendada paketiloendit?"
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr "Paketiandmed pole täielikud ning vajavad uuendamist."
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr "_Uuenda"
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Mitte ühtegi vajalike pluginate paketti ei leitud"
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Vajalikud pluginad on:\n"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Piiratud kasutusõigusega tarkvara paigaldamise kinnitus"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "* These restrictions do not apply in your country of legal residence\n"
+#~ "* You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "* You are using this software for research purposes only"
+#~ msgstr ""
+#~ "Mõnes riigis võib selle tarkvara kasutamise õigus olla piiratud. Sa pead "
+#~ "olema kindel, et täidetud oleks vähemalt üks järgnevatest tingimustest:\n"
+#~ "\n"
+#~ "* Vastavad piirangud ei kehti sinu riigis või õigusruumis\n"
+#~ "* Sul on õigus seda tarkvara kasutada (näiteks patendilitsents)\n"
+#~ "* Sa kasutad seda ainult tarkvaraarenduse eesmärgil"
+
+#~ msgid "C_onfirm"
+#~ msgstr "_Kinnita"

@@ -1,0 +1,200 @@
+# Occitan (post 1500) translation for gnome-codec-install
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gnome-codec-install package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-codec-install\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-02-07 12:55+0000\n"
+"Last-Translator: Cédric VALMARY <cvalmary@yahoo.fr>\n"
+"Language-Team: Occitan (post 1500) <oc@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Linha de comandas invalida"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Lo format dels paramètres passats a l’aplicacion es invalid. Mercés de "
+"senhalar aqueste bug !\n"
+"\n"
+"Los paramètres èran :\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Recercar un ensèrt apropriat ?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Lo logicial requesit per legir aqueste fichièr es pas installat. Vos cal "
+"installar los ensèrts apropriats per legir los fichièrs. Volètz recercar un "
+"ensèrt que prenga en carga lo fichièr seleccionat ?\n"
+"\n"
+"La recèrca enclurà tanben de logicials que son pas sostenguts oficialament."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Recercar"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Pas cap de paquet seleccionat"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Site Web :"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Provesís :"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Descripcion longa"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Installacion d'ensèrts multimèdia"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Seleccionatz los paquets d'installar per provesir los ensèrts "
+"seguents :</big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Paquet"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Detalhs"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "Anullar"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "Installar"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Recèrca de paquets d'ensèrts"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Aquesta operacion pòt durar una o doas minutas."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Cargament de l'amagatal de paquets…"
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Recèrca dels ensèrts demandats…"
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Pas cap de paquet seleccionat"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Paquets installats amb succès"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Los paquets seleccionats son estats installats amb succès e provesisson "
+"totes los ensèrts requesits."
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Los paquets seleccionats son estats installats amb succès mas provesisson "
+"pas totes los ensèrts requesits."
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Pas cap de paquet installat"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Cap dels paquets seleccionats es pas estat installat"
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr "Metre a jorn la lista dels paquets ?"
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr "L'informacion suls paquets es incompleta e deu èsser mesa a jorn."
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr "_Metre a jorn"
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Cap de paquet es pas estat trobat amb los ensèrts requesits."
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Los ensèrts requesits son :\n"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Confirmar l'installacion de logicials restrenches"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "* These restrictions do not apply in your country of legal residence\n"
+#~ "* You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "* You are using this software for research purposes only"
+#~ msgstr ""
+#~ "L'utilizacion d'aqueste logicial pòt èsser restrench dins d'unes païses. "
+#~ "Vos cal verificar que sètz dins un d'aqueles cases :\n"
+#~ "* aquelas restriccions legalas s'aplicant pas dins vòstre país de "
+#~ "residéncia ;\n"
+#~ "* avètz l'autorizacion d'utilizar aqueste logicial (una licéncia, per "
+#~ "exemple) ;\n"
+#~ "* utilizatz pas aqueste logicial sonque per de recèrca."
+
+#~ msgid "C_onfirm"
+#~ msgstr "C_onfirmar"

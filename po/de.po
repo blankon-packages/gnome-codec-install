@@ -1,0 +1,205 @@
+# Copyright (C) 2008 Sebastian Dröge <sebastian.droege@collabora.co.uk>
+# This file is distributed under the same license as the gnome-codec-install
+# package.
+# Sebastian Dröge <sebastian.droege@collabora.co.uk>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-codec-install 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-02-14 14:44+0000\n"
+"Last-Translator: Jochen Skulj <jochen@jochenskulj.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Ungültige Parameter"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Die Parameter für die Anwendung hatten ein ungültiges Format. Bitte "
+"berichten sie den Fehler!\n"
+"\n"
+"Die Parameter waren:\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Suche nach einem geeigneten Plugin?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Die erforderliche Software zur Wiedergabe dieser Datei ist nicht "
+"installiert. Die Wiedergabe von Mediendateien erfordert passende so genannte "
+"Plugins. Möchten Sie nach Plugins für diese Datei suchen?\n"
+"\n"
+"Die Suche liefert auch Software, die nicht offiziell unterstützt wird."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Suche"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Kein Paket ausgewählt"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Homepage:"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Wird bereitgestellt:"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Ausführliche Beschreibung"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Multimedia Plugins installieren"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Wählen Sie bitte folgende Pakete zur Installation, um die folgenden "
+"Plugins bereitzustellen:</big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Paket"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Details"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "Installieren"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Suche Plugin-Pakete"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Dies kann ein oder zwei Minuten dauern."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Paket-Zwischenspeicher wird geladen …"
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Benötigte Plugins werden gesucht …"
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Es wurden keine Pakete gewählt"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Pakete wurden erfolgreich installiert"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Die gewählten Pakete wurden erfolgreich installiert und stellen alle "
+"benötigten Plugins bereit"
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Die gewählten Pakete wurden erfolgreich installiert aber stellen nicht alle "
+"benötigten Plugins bereit"
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Keine Pakete installiert"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Keines der ausgewählten Pakete wurde installiert."
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr "Paketlisten aktualisieren?"
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr ""
+"Die Paketinformationen sind unvollständig und müssen aktualisiert werden.Ich "
+"habe das schon mit »überflüssigen Software-Komponenten« übersetzt, klingt "
+"aber viiieel zu sperrig. Ich suche ei knackiges Wort dafür."
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr "_Aktualisieren"
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Es wurden keine Pakete mit den benötigten Plugins gefunden"
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Die benötigten Plugins sind:\n"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Installation eingeschränkter Software bestätigen"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "* These restrictions do not apply in your country of legal residence\n"
+#~ "* You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "* You are using this software for research purposes only"
+#~ msgstr ""
+#~ "Die Benutzung dieser Software kann in einigen Ländern gesetzlichen "
+#~ "Beschränkungen unterliegen. Sie müssen sicherstellen, dass eine der "
+#~ "folgenden Bedingungen erfüllt ist:\n"
+#~ "\n"
+#~ "* Sie wohnen in einem Land, in dem diese Beschränkungen nicht gültig "
+#~ "sind\n"
+#~ "* Sie sind berechtigt, diese Software zu verwenden (beispielsweise "
+#~ "aufgrund einer Patentlizenz)\n"
+#~ "* Sie benutzen diese Software nur zu Forschungszwecken"
+
+#~ msgid "C_onfirm"
+#~ msgstr "_Bestätigen"

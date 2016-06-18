@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+DEB_AUTO_CLEANUP_RCS  := yes
+DEB_PYTHON2_MODULE_PACKAGES=gnome-codec-install
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/python-distutils.mk
+
+clean::
+	rm -rf build
+
+binary-install/gnome-codec-install::
+	dh_icons -p$(cdbs_curpkg)

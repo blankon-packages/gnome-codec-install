@@ -1,0 +1,5 @@
+[encoding: UTF-8]
+gnome-codec-install
+GnomeCodecInstall/Main.py
+GnomeCodecInstall/MainWindow.py
+GnomeCodecInstall/PackageWorker.py

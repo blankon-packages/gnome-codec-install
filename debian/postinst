@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+update-alternatives --install /usr/bin/gstreamer-codec-install gstreamer-codec-install /usr/bin/gnome-codec-install 85
+

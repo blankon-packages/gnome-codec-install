@@ -1,0 +1,198 @@
+# Bulgarian translation for gnome-codec-install
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gnome-codec-install package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-codec-install\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-01-21 12:38+0000\n"
+"Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:04+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Невалиден команден ред"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Параметрите изпратени на програмата имат невалиден формат. Моля, докладвайте "
+"грешка!\n"
+"\n"
+"Параметрите бяха:\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Търсене за подходящ кодек?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Необходимия софтуер за възпроизвеждане на този файл не е инсталиран. Трябва "
+"да инсталирате подходящи приставки, за да възпроизвеждате медийни файлове. "
+"Искате ли да се потърси за приставки, които поддържат избрания файл?\n"
+"\n"
+"В търсенето също се включва софтуер, който не се поддържа официално."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Търсене"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Не е избран пакет"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Домашна страница:"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Предоставя:"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Дълго описание:"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Инсталиране на мултимедийни приставки"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Моля, изберете пакетите за инсталиране, за да имате следните "
+"приставки:</big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Пакет"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Подробности"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "отказ"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "Инсталиране"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Търсене за приставки"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Това може да отнеме една-две минути."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Зареждане на кеш с пакети..."
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Търсене за поисканите приставки..."
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Не са избрани пакети"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Пакетите са инсталирани успешно"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Избраните пакети бяха инсталирани успешно и предлагат поисканите приставки"
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Избраните пакети бяха инсталирани успешно, но не предлагат всички поискани "
+"приставки"
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Не са инсталирани пакети"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Никой от избраните пакети не беше инсталиран."
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr ""
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr ""
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr ""
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Не са намерени пакети с поисканите приставки"
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Поисканите приставки са:\n"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Потвърждение на инсталация на ограничен софтуер"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "* These restrictions do not apply in your country of legal residence\n"
+#~ "* You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "* You are using this software for research purposes only"
+#~ msgstr ""
+#~ "Употребата на този софтуер може да е ограничена в някои държави. Трябва "
+#~ "да проверите дали едно от следните е вярно:\n"
+#~ "\n"
+#~ "* Тези ограничения не се прилагат във вашата държава като незаконни\n"
+#~ "* Имате право да използвате този софтуер (примерно, патент)\n"
+#~ "* Използвате софтуер само за проучвания"
+
+#~ msgid "C_onfirm"
+#~ msgstr "По_твърждавам"

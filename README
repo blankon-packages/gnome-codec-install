@@ -1,0 +1,6 @@
+GStreamer codec search tool
+
+To test run:
+
+$ gnome-codec-install  'gstreamer|0.10|totem|DivX MPEG-4 Version 5 decoder|decoder-video/x-divx, divxversion=(int)5'
+

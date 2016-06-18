@@ -1,0 +1,174 @@
+gnome-codec-install (0.4.7+nmu2blankon1) tambora; urgency=medium
+
+  * Replace depends synaptic with gnome-software 
+
+ -- dotovr <dotovr@preko>  Sat, 18 Jun 2016 23:11:34 +0700
+
+gnome-codec-install (0.4.7+nmu2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Convert to dh_python2 (Closes: #616829).
+
+ -- Luca Falavigna <dktrkranz@debian.org>  Tue, 28 May 2013 09:35:04 +0200
+
+gnome-codec-install (0.4.7+nmu1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Do not use functions from aptdaemon if aptdaemon is not
+    installed (Closes: #589580)
+
+ -- Julian Andres Klode <jak@debian.org>  Sun, 30 Jan 2011 17:35:13 +0100
+
+gnome-codec-install (0.4.7) unstable; urgency=low
+
+  * debian/control:
+    + Require python 2.5 or newer for "yield" (Closes: #584175, #584175).
+
+ -- Sebastian Dröge <slomo@debian.org>  Wed, 02 Jun 2010 10:00:15 +0200
+
+gnome-codec-install (0.4.6) unstable; urgency=low
+
+  * debian/control,
+    GnomeCodecInstall/MainWindow.py,
+    GnomeCodecInstall/PackageWorker.py:
+    + Add patch by Michael Vogt to use aptdaemon for package installation
+      if available and only use synaptic as fallback (Closes: #584114).
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 01 Jun 2010 20:09:50 +0200
+
+gnome-codec-install (0.4.5) unstable; urgency=low
+
+  * GnomeCodecInstall/PackageWorker.py,
+    GnomeCodecInstall/MainWindow.py,
+    debian/control:
+    + Update to python-apt 0.8 API. Thanks to Julian Andres
+      Klode <jak@debian.org> for the patch (Closes: #571749).
+  * debian/control,
+    debian/compat,
+    debian/source/format:
+    + Update Standards-Version to 3.8.4, no additional changes needed.
+    + Update to debhelper compat level 7.
+    + Update to source format 3.0 (native).
+
+ -- Sebastian Dröge <slomo@debian.org>  Sun, 28 Feb 2010 10:26:38 +0100
+
+gnome-codec-install (0.4.4) unstable; urgency=low
+
+  * po/fr.po:
+    + Update French translation.
+  * po/*.po:
+    + And update all other translations for Launchpad.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 15 Feb 2010 11:18:47 +0100
+
+gnome-codec-install (0.4.3) unstable; urgency=low
+
+  * GnomeCodecInstall/PackageWorker.py,
+    GnomeCodecInstall/MainWindow.py:
+    + If no codecs are found, check if the apt package lists
+      are complete and if not ask if the user wants to perform
+      a update and redo the search (Closes: #566112).
+      Thanks to Michael Vogt for the patch.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 02 Feb 2010 12:26:59 +0100
+
+gnome-codec-install (0.4.2) unstable; urgency=low
+
+  [ Michael Vogt ]
+  * GnomeCodecInstall/PackageWorker.py:
+    + do not crash if window_main.window is not realized yet
+      (LP: #350478)
+  * GnomeCodecInstall/MainWindow.py:
+    + do not crash if the user undoes a selection (LP: #355350)
+
+  [ Sebastian Dröge ]
+  * po/cs.po,
+    po/da.po,
+    po/id.po,
+    po/sk.po:
+    + Import Czech/Danish/Indonesian/Slovak translations from Launchpad.
+  * po/*.po:
+    + Update all other translations for Launchpad, the Catalan,
+      Italian, Russian and Ukrainian translations had some updates.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 20 Oct 2009 17:35:55 +0200
+
+gnome-codec-install (0.4.1) unstable; urgency=low
+
+  * po/*.po:
+    + Import translations from Launchpad, this gives us translations
+      in 22 new languages.
+
+ -- Sebastian Dröge <slomo@debian.org>  Sat, 03 Oct 2009 10:55:20 +0200
+
+gnome-codec-install (0.4.0) unstable; urgency=low
+
+  * GnomeCodecInstall/MainWindow.py,
+    GnomeCodecInstall/Main.py:
+    + Handle the --transient-for commandline option
+      to set the codec installer transient for some
+      parent window's XID.
+    + Ignore other --foobar commandline options.
+  * po/es.po:
+    + Add Spanish translation, thanks to Omar Campagne (Closes: #537277).
+  * po/gnome-codec-install.pot:
+    + Update translation template.
+  * po/de.po:
+    + Update German translation.
+  * po/fr.po,
+    po/es.po:
+    + Update some parts for the translation template update, i.e. add some
+      colons at the end of some strings. Because I don't speak French/Spanish
+      there are two untranslated and one fuzzy string now.
+  * debian/control:
+    + Update Standards-Version to 3.8.3.
+    + Improve long description (Closes: #517370).
+
+ -- Sebastian Dröge <slomo@debian.org>  Sat, 03 Oct 2009 07:42:45 +0200
+
+gnome-codec-install (0.3.3) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Sebastian Dröge <slomo@debian.org>  Sun, 15 Feb 2009 20:04:17 +0100
+
+gnome-codec-install (0.3.2) experimental; urgency=low
+
+  * GnomeCodecInstall/MainWindow.py:
+    - use gst.Caps.intersect() instead of is_subset()
+      to get more accurate resuts
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 21 Jan 2009 17:03:42 +0100
+
+gnome-codec-install (0.3.1) experimental; urgency=low
+
+  * GnomeCodecInstall/MainWindow.py:
+    - switch from a GtkLabel based details view to a 
+      subclass of GtkTextView
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 13 Jan 2009 13:50:56 +0100
+
+gnome-codec-install (0.3) experimental; urgency=low
+
+  * Add charset info to some python files and README.
+  * Use the new "apt" API of python-apt instead of the old "apt_pkg" API.
+  * Rewrite the searching of packages without using regular expressions
+  * Improve UI updating and package installation.
+  * Cleanups
+  
+ -- Michael Vogt <mvo@debian.org>  Fri, 09 Jan 2009 13:37:09 +0100
+
+gnome-codec-install (0.2) experimental; urgency=low
+
+  * po/de.po,
+    po/fr.po:
+    + Add german translation by me and french translation by Josselin Mouette.
+
+ -- Sebastian Dröge <slomo@debian.org>  Sun, 21 Sep 2008 15:09:49 +0200
+
+gnome-codec-install (0.1) experimental; urgency=low
+
+  * Initial Release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 18 Aug 2008 14:04:40 +0200
+

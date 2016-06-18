@@ -1,0 +1,198 @@
+# French translation for gnome-codec-install
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-15 11:18+0100\n"
+"PO-Revision-Date: 2010-02-12 21:19+0000\n"
+"Last-Translator: durden <Unknown>\n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-15 10:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../GnomeCodecInstall/Main.py:100 ../GnomeCodecInstall/Main.py:104
+msgid "Invalid commandline"
+msgstr "Ligne de commandes invalide"
+
+#: ../GnomeCodecInstall/Main.py:101
+#, python-format
+msgid ""
+"The parameters passed to the application had an invalid format. Please file "
+"a bug!\n"
+"\n"
+"The parameters were:\n"
+"%s"
+msgstr ""
+"Le format des paramètres passés à l’application est invalide. Merci de "
+"signaler ce bogue !\n"
+"\n"
+"Les paramètres étaient :\n"
+"%s"
+
+#: ../GnomeCodecInstall/Main.py:112 ../GnomeCodecInstall/Main.py:122
+msgid "Search for suitable plugin?"
+msgstr "Rechercher un greffon approprié ?"
+
+#: ../GnomeCodecInstall/Main.py:113
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable plugins to play media files. Do you want to search for a "
+"plugin that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Le logiciel requis pour lire ce fichier n’est pas installé. Vous devez "
+"installer les greffons appropriés pour lire les fichiers. Voulez-vous "
+"rechercher un greffon qui prenne en charge le fichier sélectionné ?\n"
+"\n"
+"La recherche inclura également des logiciels qui ne sont pas soutenus "
+"officiellement."
+
+#: ../GnomeCodecInstall/Main.py:120
+msgid "_Search"
+msgstr "_Rechercher"
+
+#: ../GnomeCodecInstall/MainWindow.py:42 ../GnomeCodecInstall/MainWindow.py:53
+msgid "No package selected"
+msgstr "Aucun paquet sélectionné"
+
+#: ../GnomeCodecInstall/MainWindow.py:63
+msgid "Homepage:"
+msgstr "Site Web :"
+
+#: ../GnomeCodecInstall/MainWindow.py:67
+msgid "Provides:"
+msgstr "Fournit :"
+
+#: ../GnomeCodecInstall/MainWindow.py:73
+msgid "Long Description:"
+msgstr "Description longue"
+
+#: ../GnomeCodecInstall/MainWindow.py:92
+msgid "Install Multimedia Plugins"
+msgstr "Installation de greffons multimédia"
+
+#: ../GnomeCodecInstall/MainWindow.py:115
+msgid ""
+"<b><big>Please select the packages for installation to provide the following "
+"plugins:</big></b>\n"
+msgstr ""
+"<b><big>Veuillez sélectionner les paquets à installer pour fournir les "
+"greffons suivants :</big></b>\n"
+
+#: ../GnomeCodecInstall/MainWindow.py:132
+msgid "Package"
+msgstr "Paquet"
+
+#: ../GnomeCodecInstall/MainWindow.py:141
+msgid "Details"
+msgstr "Détails"
+
+#. TODO integrate help by calling yelp
+#. btn = gtk.Button(_("Help"), gtk.STOCK_HELP)
+#. button_box.add(btn)
+#. button_box.set_child_secondary(btn, True)
+#: ../GnomeCodecInstall/MainWindow.py:164
+msgid "Cancel"
+msgstr "A_nnuler"
+
+#: ../GnomeCodecInstall/MainWindow.py:168
+msgid "Install"
+msgstr "_Installer"
+
+#: ../GnomeCodecInstall/MainWindow.py:216
+#: ../GnomeCodecInstall/MainWindow.py:222
+msgid "Searching Plugin Packages"
+msgstr "Recherche de paquets de greffons"
+
+#: ../GnomeCodecInstall/MainWindow.py:223
+msgid "This might take up to one or two minutes."
+msgstr "Cette opération peut durer une ou deux minutes."
+
+#: ../GnomeCodecInstall/MainWindow.py:235
+msgid "Loading package cache..."
+msgstr "Chargement du cache de paquets…"
+
+#: ../GnomeCodecInstall/MainWindow.py:244
+msgid "Searching for requested plugins..."
+msgstr "Recherche des greffons demandés…"
+
+#: ../GnomeCodecInstall/MainWindow.py:359
+msgid "No packages selected"
+msgstr "Aucun paquet sélectionné"
+
+#: ../GnomeCodecInstall/MainWindow.py:369
+#: ../GnomeCodecInstall/MainWindow.py:375
+msgid "Packages successfully installed"
+msgstr "Paquets installés avec succès"
+
+#: ../GnomeCodecInstall/MainWindow.py:370
+msgid ""
+"The selected packages were successfully installed and provided all requested "
+"plugins"
+msgstr ""
+"Les paquets sélectionnés ont été installés avec succès et fournissent tous "
+"les greffons requis."
+
+#: ../GnomeCodecInstall/MainWindow.py:376
+msgid ""
+"The selected packages were successfully installed but did not provide all "
+"requested plugins"
+msgstr ""
+"Les paquets sélectionnés ont été installés avec succès mais ne fournissent "
+"pas tous les greffons requis."
+
+#: ../GnomeCodecInstall/MainWindow.py:382
+msgid "No packages installed"
+msgstr "Aucun paquet installé"
+
+#: ../GnomeCodecInstall/MainWindow.py:383
+msgid "None of the selected packages were installed."
+msgstr "Aucun des paquets sélectionnés n'a été installé"
+
+#: ../GnomeCodecInstall/MainWindow.py:404
+msgid "Update package list?"
+msgstr "Mettre à jour la liste des paquets?"
+
+#: ../GnomeCodecInstall/MainWindow.py:405
+msgid "The package information is incomplete and needs to be updated."
+msgstr "L'information sur les paquets est incomplète et doit être mise à jour."
+
+#: ../GnomeCodecInstall/MainWindow.py:407
+msgid "_Update"
+msgstr "Mise à jo_ur"
+
+#: ../GnomeCodecInstall/MainWindow.py:420
+msgid "No packages with the requested plugins found"
+msgstr "Aucun paquet n’a été trouvé avec les greffons requis."
+
+#: ../GnomeCodecInstall/MainWindow.py:421
+msgid "The requested plugins are:\n"
+msgstr "Les greffons requis sont :\n"
+
+#~ msgid "C_onfirm"
+#~ msgstr "C_onfirmer"
+
+#~ msgid "Confirm installation of restricted software"
+#~ msgstr "Confirmer l'installation de logiciels restreints"
+
+#~ msgid ""
+#~ "The use of this software may be restricted in some countries. You must "
+#~ "verify that one of the following is true:\n"
+#~ "\n"
+#~ "• These restrictions do not apply in your country of legal residence\n"
+#~ "• You have permission to use this software (for example, a patent "
+#~ "license)\n"
+#~ "• You are using this software for research purposes only"
+#~ msgstr ""
+#~ "L'utilisation de ce logiciel peut être restreint dans certains pays. Vous "
+#~ "devez vérifier que vous êtes dans l'un de ces cas :\n"
+#~ "• ces restrictions légales ne s'appliquent pas dans votre pays de "
+#~ "résidence ;\n"
+#~ "• vous avez l'autorisation d'utiliser ce logiciel (une licence, par "
+#~ "exemple) ;\n"
+#~ "• vous n'utilisez ce logiciel qu'à des fins de recherche."
