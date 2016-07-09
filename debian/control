@@ -23,7 +23,7 @@ Depends: ${python:Depends},
          python-apt (>= 0.7.93.2),
          python-gst0.10,
          python-gtk2 (>= 2.10.1),
-         appcenter
+         gnome-software
 Replaces: gnome-app-install (<= 0.5.5.1-1)
 Description: GStreamer codec installer
  This package contains a GTK+ based GStreamer codec installer, which is
