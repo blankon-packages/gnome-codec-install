@@ -1,3 +1,9 @@
+gnome-codec-install (0.4.7+nmu2blankon2) tambora; urgency=medium
+
+  * Replaces gnome-software with appcenter
+
+ -- Syai Mif <syaimif@localhost>  Sat, 09 Jul 2016 08:35:16 +0700
+
 gnome-codec-install (0.4.7+nmu2blankon1) tambora; urgency=medium
 
   * Replace depends synaptic with gnome-software 
